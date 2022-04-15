@@ -1,8 +1,11 @@
+import java.util.Scanner;
+
 public class Search_main {
 
 
     public static void main(String[] args) {
         Graph graph = new Graph(8);
+        Scanner scanner =  new Scanner(System.in);
 
         // generating the graph
         graph.addEdge(0,2);
@@ -14,6 +17,8 @@ public class Search_main {
         graph.addEdge(4, 5);
 
         // invoking breadth first search traversal method
-        graph.BreadthFirstSearch(0);
+        System.out.println("Select a number from [0,1,2,3,4,5,6,7]");
+        int root = scanner.nextInt();
+        graph.DepthFirstSearch(root);
     }
 }

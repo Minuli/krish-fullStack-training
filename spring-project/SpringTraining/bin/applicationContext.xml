@@ -4,9 +4,9 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     
-    <bean id="employeeRepository" class="com.minuli.training.salesmanager.repository.HibernateEmployeeRepositoryImpl"/>
+    <bean id="employeeRepository" class="com.minuli.training.salaesmanager.repository.HibernateEmployeeRepositoryImpl"/>
 
-    <bean name="employeeService" class="com.minuli.training.salesmanager.service.EmployeeServiceImpl" autowire="constructor">
+    <bean name="employeeService" class="com.minuli.training.salaesmanager.service.EmployeeServiceImpl" autowire="constructor">
 		<!--<property name="employeeRepository" ref="employeeRepository"></property>-->
 		<!--<constructor-arg index="0" ref="employeeRepository"></constructor-arg>-->
     </bean>

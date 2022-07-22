@@ -1,0 +1,12 @@
+1658306012478	Extract interface 'EmployeeRepository'
+1658306320888	Extract interface 'EmployeeService'
+1658306609729	Rename package 'com.krishantha.training.salaesmanager.repository'
+1658306638319	Rename package 'com.krishantha.training.salesmanager.model'
+1658306661232	Rename package 'com.krishantha.trainng.salesmanager.service'
+1658306683356	Rename package 'com.krishantha.training.salesmanager.main'
+1658315992403	Move file
+1658328334659	Delete element
+1658328510772	Delete element
+1658330274924	Delete element
+1658332668867	Delete element
+1658332775937	Delete element

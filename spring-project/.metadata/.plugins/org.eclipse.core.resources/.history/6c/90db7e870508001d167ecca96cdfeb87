@@ -1,0 +1,5 @@
+package com.krishantha.training.salaesmanager.repository;
+
+public class HibernateEmployeeRepositoryImpl {
+
+}

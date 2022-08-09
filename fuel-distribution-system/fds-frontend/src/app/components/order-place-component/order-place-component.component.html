@@ -1,0 +1,27 @@
+<h1> Place your Fuel Order Today</h1>
+
+<div>
+<form>
+<mat-form-field appearance="fill">
+  <mat-label>Enter Station name</mat-label>
+  <input  matInput name="stationName" id="stationName" [(ngModel)]="stationName">
+</mat-form-field>
+<br>
+<mat-form-field appearance="fill">
+  <mat-label>Select Fuel Type</mat-label>
+  <mat-select id="type" [(value)]= "fuelType">
+    <mat-option *ngFor="let val of fuelTypes" [value]="val.value">{{val.viewValue}} </mat-option>
+  </mat-select>
+</mat-form-field>
+<br>
+<mat-form-field appearance="fill">
+  <mat-label>Select Quantity (in Ltr)</mat-label>
+  <mat-select id="quantity" [(value)]= "fuelQuantity">
+    <mat-option *ngFor="let val of quantities" [value]="val.value">{{val.viewValue}}</mat-option>
+
+  </mat-select>
+</mat-form-field>
+<br>
+<button mat-raised-button color="primary" (click)="getValues()">Request</button>
+</form>
+</div>
